@@ -10,6 +10,7 @@ namespace ServiceB
     {
         public static void Main(string[] args)
         {
+            
             using (var main = new CancellationTokenSource())
             using (var cts = new CancellationTokenSource())
             {
