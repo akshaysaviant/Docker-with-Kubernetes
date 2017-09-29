@@ -18,8 +18,7 @@ namespace ServiceB
 
         public Startup(IHostingEnvironment env)
         {
-             Console.WriteLine("My Name is Devendra Patil");
-            Console.ReadLine();
+           
             var aiKey = Environment.GetEnvironmentVariable("APPINSIGHTS_INSTRUMENTATIONKEY");
             var devMode = Environment.GetEnvironmentVariable("APPINSIGHTS_DEVELOPER_MODE");
             var useDevMode = env.IsDevelopment() || !String.IsNullOrEmpty(devMode);
